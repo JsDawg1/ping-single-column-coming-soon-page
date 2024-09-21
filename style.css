@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    padding:0px;
+    margin:0px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+      
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+#headerH2{
+    font-weight: 100;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+p{
+    margin-top: -30px;
+    font-weight: 400;
+}
+ 
+.email{
+    height: 40px;;
+    width:55%;
+    border-radius: 20px;
+    outline:none;
+    border:1px solid rgb(41, 41, 41, 0.3);
+    padding-left: 20px;
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.email.active{
+    border: 1px solid red;
+}
+
+.submit{
+    width:30%;
+    margin-left: 2vw;
+    height: 40px;
+    border-radius: 20px;
+    border:none;
+    background-color: rgb(92, 123, 235);
+    color:white;
+    box-shadow: 1px 5px 80px rgb(92, 123, 235, 0.4);
+}
+
+.inputs{
+    margin-top: 2vh;
+}
+
+#bg{
+    margin-top: 8vh;
+    max-width: 550px;
+}
+
+#errorP{
+    color:red;
+    font-size: 10px;
+    margin-top: 10px;
+    padding-left: 40px;
+    display: none;
+}
